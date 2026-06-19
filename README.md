@@ -149,6 +149,7 @@ GRANT INSERT, UPDATE, DELETE ON delivery_system.Expenses TO 'accountant';
 ---
 
 ## Project Structure
+```text
 delivery-system/
 │
 ├── db/
@@ -162,11 +163,11 @@ delivery-system/
 │   └── security.sql
 │
 ├── erd/
-│   ├── er_digram.png
+│   ├── er_diagram.png
 │   └── relational_schema.mwb
 │
-├── README.md
-
+└── README.md
+```
 
 ---
 
