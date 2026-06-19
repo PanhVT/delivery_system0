@@ -150,7 +150,6 @@ GRANT INSERT, UPDATE, DELETE ON delivery_system.Expenses TO 'accountant';
 
 ## Project Structure
 delivery-system/
-.
 │
 ├── db/
 │   ├── schema.sql
