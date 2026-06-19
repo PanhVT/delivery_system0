@@ -149,3 +149,96 @@ GRANT INSERT, UPDATE, DELETE ON delivery_system.Expenses TO 'accountant';
 ---
 
 ## Project Structure
+delivery-system/
+
+│
+
+├── db/
+
+│   ├── schema.sql
+
+│   ├── sample_data.sql
+
+│   ├── procedures.sql
+
+│   ├── index.sql
+
+│   ├── users_defined_functions.sql
+
+│   ├── triggers.sql
+
+│   ├── views.sql
+
+│   └── security.sql
+
+│
+
+├── erd/
+
+│   ├── er_digram.png
+
+│   └── relational_schema.mwb
+
+│
+
+├── README.md
+
+
+---
+
+## How to Run
+
+### Setup Database
+
+Run SQL files in order:
+
+1. `schema.sql`
+2. `sample_data.sql`
+3. `views.sql`
+4. `index.sql`
+5. `procedures.sql`
+6. `users_defined_functions.sql`
+7. `triggers.sql`
+8. `security.sql`
+
+---
+
+## 📊 Sample Workflow
+
+1. Add customer
+2. Create order
+3. Assign delivery
+4. Track delivery
+5. Add expenses
+6. Generate reports
+
+---
+
+## Limitations
+
+* No real-time GPS tracking
+* Limited error handling for complex real-world scenarios
+* Some aggregation queries may become inefficient with large data volumes
+
+---
+
+## Future Improvements
+
+* GPS tracking integration
+* Mobile application
+* Optimize query performance using caching or advanced indexing techniques
+* Email/SMS notifications
+
+---
+
+## Author
+
+* Name: Vũ Thị Phương Anh
+* University: National Economics University
+
+---
+
+## References
+
+* MySQL Documentation
+* Course materials
