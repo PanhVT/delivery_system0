@@ -7,7 +7,7 @@ It enhances operational efficiency through automation using **views, stored proc
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 * **Database:** MySQL
 * **Tools:** MySQL Workbench, GitHub
@@ -152,35 +152,20 @@ GRANT INSERT, UPDATE, DELETE ON delivery_system.Expenses TO 'accountant';
 delivery-system/
 
 │
-
 ├── db/
-
 │   ├── schema.sql
-
 │   ├── sample_data.sql
-
 │   ├── procedures.sql
-
 │   ├── index.sql
-
 │   ├── users_defined_functions.sql
-
 │   ├── triggers.sql
-
 │   ├── views.sql
-
 │   └── security.sql
-
 │
-
 ├── erd/
-
 │   ├── er_digram.png
-
 │   └── relational_schema.mwb
-
 │
-
 ├── README.md
 
 
@@ -203,7 +188,7 @@ Run SQL files in order:
 
 ---
 
-## 📊 Sample Workflow
+## Sample Workflow
 
 1. Add customer
 2. Create order
